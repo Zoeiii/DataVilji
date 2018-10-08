@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This XML file allows us to easily customize the visual aesthetics of the user interface. Note that this properties
+file is only for the standard high-level controls for an application, so it does not include properties meant for any
+functionality within the main workspace. -->
+<properties>
+    <property_list>
+        <!-- RESOURCE FILES AND FOLDERS -->
+        <property name="DATA_RESOURCE_PATH" value="data"/>
+        <property name="CSS_RESOURCE_PATH" value="css/cssFile"/>
+
+        <!-- USER INTERFACE ICON FILES -->
+        <property name="SCREENSHOT_ICON" value="screenshot.png"/>
+        <property name="RUN_ICON" value="run.png"/>
+        <property name="SETTING_ICON" value="settings.png"/>
+
+        <!-- TOOLTIPS FOR BUTTONS -->
+        <property name="SCREENSHOT_TOOLTIP" value="Screenshot"/> <!-- will print current view of image to a file -->
+
+        <!-- WARNING MESSAGES -->
+        <property name="EXIT_WHILE_RUNNING_WARNING"
+                  value="An algorithm is running. If you exit now, all unsaved changes will be lost. Are you sure?"/>
+
+        <!-- ERROR MESSAGES -->
+        <property name="RESOURCE_SUBDIR_NOT_FOUND" value="Directory not found under resources."/>
+        <property name="LOAD_TOO_MANY" value="Loaded data consists of "/>
+        <property name="SHOW_10_LINE_ONLY" value=" lines. Showing only the first 10 in the text area."/>
+        <property name="INVALID_ITER" value="Invalid iterations"/>
+        <property name="INVALID_INTERV" value="Invalid intervals"/>
+        <property name="NOT_INT" value="Invalid input"/>
+        <property name="DISPLAY_LINE_ERROR" value="Line are not displaying due to randomness"/>
+        <property name="TOO_MANY_LABELS" value="Labels wanted is more than the number of instance"/>
+
+        <!-- APPLICATION-SPECIFIC MESSAGE TITLES -->
+        <property name="SAVE_UNSAVED_WORK_TITLE" value="Save Current Work"/>
+        <property name="EXIT_WHILE_RUNNING" value="Exit While running"/>
+        <property name="ALGO_RUN_CON_TITLE" value="Algorithm Run Configuration"/>
+
+        <!-- APPLICATION-SPECIFIC MESSAGES -->
+        <property name="SAVE_UNSAVED_WORK" value="Would you like to save current work?"/>
+        <property name="MAX_ITERATION" value="Max. Iterations:  "/>
+        <property name="UPDATE_INTERVAL" value="Update Interval: "/>
+        <property name="NUMBER_LABLES_TA" value="Number Lables: "/>
+        <property name="RUN_OR_NOT" value="Continue to run?    "/>
+        <property name="RE_INPUT" value="Reset input"/>
+
+        <!-- TYPE-OF-ALGO NAMES -->
+        <property name="ALGO_TYPES" value="Algorithm Types"/>
+        <property name="CLUSTERING" value="Clustering"/>
+        <property name="CLASSIFICATION" value="Classification"/>
+        <property name="R_CLASS" value="Random Classification"/>
+        <property name="R_CLUST" value="Random Clustering"/>
+        <property name="K_CLUST" value="K Means Clusterer"/>
+        <property name="RandomClassifier" value="algo.RandomClassifier"/>
+        <property name="KMeansClusterer" value="algo.KMeansClusterer"/>
+        <property name="RandomClusterer" value="algo.RandomClusterer"/>
+
+        <!-- APPLICATION-SPECIFIC PARAMETERS -->
+        <property name="IMAGE_FILE_EXT" value="png"/>
+        <property name="IMAGE_FILE_EXT_DESC" value="Portable Network Graphics"/>
+        <property name="DATA_FILE_EXT" value=".tsd"/>
+        <property name="DATA_FILE_EXT_DESC" value="Tab-Separated Data File"/>
+        <property name="TEXT_AREA" value="text area"/>
+        <property name="SPECIFIED_FILE" value=" specified file"/>
+        <property name="LEFT_PANE_TITLE" value="Data File"/>
+        <property name="LEFT_PANE_TITLEFONT" value="SansSerif"/>
+        <property name="LEFT_PANE_TITLESIZE" value="18"/>
+        <property name="CHART_TITLE" value="Data Visualization"/>
+        <property name="DISPLAY_BUTTON_TEXT" value="Display Data"/>
+        <property name="CHECK_BOX_TEXT" value="Done/Edit"/>
+        <property name="AVERAGE" value="Average"/>
+        <property name="NEW_LINE" value="&#10;"/>
+        <property name="X" value="X: "/>
+        <property name="Y" value="Y: "/>
+        <property name="NUMBER_INSTANCE" value=" instances with "/>
+        <property name="NUMBER_LABLES" value=" lables."/>
+        <property name="LOAD_FROM" value="Loaded from: "/>
+        <property name="ListOfLable" value=" The lables are: "/>
+        <property name="FORMAT_ERROR" value="ERROR!!! Wrong data format."/>
+        <property name="FINISH" value="Finish"/>
+        <property name="START_OVER_BUTTON" value="Start Over"/>
+
+
+    </property_list>
+    <property_options_list/>
+</properties>
